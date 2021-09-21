@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "Task 1a",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "10",
+      "output": "smaller than 100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 1b",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "100",
+      "output": "number is 100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 2a",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "-3.5",
+      "output": "negative",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 2b",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "0",
+      "output": "zero",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 3a",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "10",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 3b",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "988.1",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 4a",
+      "setup": "",
+      "run": "python3 task4.py",
+      "input": "My password contains no numbers",
+      "output": "the sentence contains password",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 4b",
+      "setup": "",
+      "run": "python3 task4.py",
+      "input": "To seek, to find, but not to yield!",
+      "output": "the sentence does not contain password",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 1",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "13",
+      "output": "the number is odd",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 2",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "0.44",
+      "output": "not an integer",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 3",
+      "setup": "",
+      "run": "python3 problem3.py",
+      "input": "admin\r\n12345password",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 4a",
+      "setup": "",
+      "run": "python3 problem4.py",
+      "input": "3\r\n4\r\n5.001",
+      "output": "that is a right triangle",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 4b",
+      "setup": "",
+      "run": "python3 problem4.py",
+      "input": "9.2\r\n12\r\n18",
+      "output": "that is an obtuse triangle",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 5a",
+      "setup": "",
+      "run": "python3 problem5.py",
+      "input": "25\r\n20\r\n4",
+      "output": "can be factored",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 5b",
+      "setup": "",
+      "run": "python3 problem5.py",
+      "input": "2\r\n8\r\n1",
+      "output": "can not be factored",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
