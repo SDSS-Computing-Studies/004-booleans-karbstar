@@ -10,3 +10,9 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
+num = int(input("enter a number."))
+if num == int:
+    print(f"{num} is a intager")
+else:
+    print(f"{num} is not a intager") 
