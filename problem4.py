@@ -33,3 +33,21 @@ that is an obtuse triangle
 
 
 """
+from typing import Match
+
+
+
+x = float(input("Enter one side"))
+y = float(input("Enter the second side"))
+z = float(input("Enter the third side"))
+
+
+# which side is the largest
+lst=[x,y,z]
+# two small sides square add to make the hypotenuse squared
+b= max(lst)
+a=min(lst)
+if (x**2 + y**2)**(1/2)==b:
+    print("that is a right triangle")
+else: 
+    print("that is an obtuse triangle")

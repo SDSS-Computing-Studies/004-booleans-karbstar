@@ -27,5 +27,21 @@ Enter a: 1
 Enter b: 4
 Enter c: 8
 the equation can not be factored
-
+b^2 - 4 * a * c
 """
+a = float(input("Enter one side"))
+b = float(input("Enter one side"))
+c = float(input("Enter one side"))
+#if f is positive or 0 then check b^2-4ac
+
+#if f is negative it can't be factored
+f = b**2 - 4*a*c
+if f >= 0:
+    f = b**2 - 4*a*c
+    d = f **(1/2)
+    if d == int(d):
+        print("the equation can be factored")
+    else:
+        print("the equation can not be factored")
+else: 
+    print("the equation can not be factored") 
