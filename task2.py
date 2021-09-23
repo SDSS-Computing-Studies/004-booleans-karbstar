@@ -24,4 +24,8 @@ x=float(input("Enter a number"))
 if x>0:
     print("positive")
 else:
-    if
+    if x == 0:
+        print("zero")
+    else:
+        print("negative")
+    

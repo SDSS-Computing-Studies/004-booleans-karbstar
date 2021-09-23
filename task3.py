@@ -31,3 +31,14 @@ Enter a number: 10000
 
 
 """
+x=float(input("Enter a number"))
+if x >= 1000:
+    print("3")
+else:
+    if x>= 100:
+        print("2")
+    else:
+        if x >= 10:
+            print("1")
+        else:
+            print("0")
