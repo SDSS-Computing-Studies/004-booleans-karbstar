@@ -43,10 +43,13 @@ z = float(input("Enter the third side"))
 
 lst=x,y,z
 s=max(lst)
-e=2%*s
+e=2% * s
 y = s-e
 w = s+e
 if s > y and s < w:
     print("that is a right triangle")
 else:
-    
+    if s > y:
+        print("that is an acute triangle")
+    else:
+        print("that is an obtuse triangle")

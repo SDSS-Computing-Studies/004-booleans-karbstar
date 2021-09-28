@@ -24,7 +24,7 @@
  Access denied
 """
 
-x= input("enter username")
+x= input("enter username").strip()
 if x == "admin" :
     y = input("enter password")
     if y == "12345password" :
