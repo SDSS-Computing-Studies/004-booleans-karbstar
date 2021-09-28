@@ -43,7 +43,7 @@ z = float(input("Enter the third side"))
 
 lst=x,y,z
 s=max(lst)
-e=2% * s
+e=2% s
 y = s-e
 w = s+e
 if s > y and s < w:
