@@ -53,6 +53,6 @@ if hyp > y and hyp < w:
     print("that is a right triangle")
 else:
     if hyp > y:
-        print("is an obtuse triangle")
-    else:
         print("that is an acute triangle")
+    else:
+        print("is an obtuse triangle")
