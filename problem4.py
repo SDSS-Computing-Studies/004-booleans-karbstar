@@ -38,8 +38,8 @@ from typing import Match
 
 
 x = float(input("Enter one side"))
-y = float(input("Enter the second side"))
-z = float(input("Enter the third side"))
+y = float(input("Enter one side"))
+z = float(input("Enter one side"))
 
 lst=x,y,z
 s=max(lst)
