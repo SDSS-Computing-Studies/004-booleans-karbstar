@@ -55,4 +55,4 @@ else:
     if hyp > y:
         print("that is an acute triangle")
     else:
-        print("is an obtuse triangle")
+        print("that is an obtuse triangle")
