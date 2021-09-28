@@ -50,6 +50,6 @@ if s > y and s < w:
     print("that is a right triangle")
 else:
     if s > y:
-        print("that is an acute triangle")
+        print("is an obtuse triangle")
     else:
-        print("that is an obtuse triangle")
+        print("that is an acute triangle")
