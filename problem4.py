@@ -45,13 +45,14 @@ lst=x,y,z
 s=max(lst)
 d=min(lst)
 p=((x+y+z)-s)-d
+hyp=p**(1/2)+d**(1/2)
 e=0.002 * s
 y = s-e
 w = s+e
-if p > y and p < w:
+if hyp > y and hyp < w:
     print("that is a right triangle")
 else:
-    if p > y:
+    if hyp > y:
         print("is an obtuse triangle")
     else:
         print("that is an acute triangle")
