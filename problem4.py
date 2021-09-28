@@ -37,19 +37,21 @@ from typing import Match
 
 
 
-x = float(input("Enter one side"))
-y = float(input("Enter one side"))
-z = float(input("Enter one side"))
+x = float(input("Enter a number"))
+y = float(input("Enter a number"))
+z = float(input("Enter a number"))
 
 lst=x,y,z
 s=max(lst)
-e=2% s
+d=min(lst)
+p=((x+y+z)-s)-d
+e=0.002 * s
 y = s-e
 w = s+e
-if s > y and s < w:
+if p > y and p < w:
     print("that is a right triangle")
 else:
-    if s > y:
+    if p > y:
         print("is an obtuse triangle")
     else:
         print("that is an acute triangle")
